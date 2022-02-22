@@ -203,4 +203,6 @@ class Diffusion():
         axs[1].tripcolor(self.triObj,chieff)
 
 
-            
+if __name__=="__main__":
+    diffObj = Diffusion()
+    diffObj.workflow()
